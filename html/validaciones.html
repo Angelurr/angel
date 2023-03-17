@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO DE UNIVERSIDAD</h1>
+    <form name="formulario" method="post" action="/send.php">
+        <!-- Nombre de usuario. Obligatorio, entre 5-40 carácteres -->
+        Usuario:
+        <input type="text" name="nombre" placeholder="Angel"
+               minlength="1" maxlength="20" required pattern="[A-Za-z0-9]+"/>
+        <!-- Contraseña. Obligatorio, mínimo 11 carácteres -->
+        Contraseña:
+        <input type="password" name="pass" placeholder="Contraseña"
+               minlength="6" required />
+               Telefono:
+               <input type="tel" name="telefono" placeholder="telefono"
+               minlength="6" required />
+
+
+               Carrera:
+               <input type="text" name="Carrera" placeholder="carrera universitaria"
+               required />
+               
+
+               <button>Enviar</button>
+    </form>
+</body>
+</html>
