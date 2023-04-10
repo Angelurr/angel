@@ -56,3 +56,65 @@ nav{
     width: 300px;
 }
 
+footer {
+    background: rgb(70, 70, 70);
+    padding: 20px 0;
+    padding-top: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.partfooter {
+    width: 22%;
+    text-align: center;
+}
+.partfooter img {
+    width: 68%;
+}
+.partfooter h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    background-color: #d03d3d;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px double #d03d3d;
+}
+.contact {
+    margin: 10px;
+    display: block;
+    text-align: left;
+    color: #fff;
+
+}
+.contact > i {
+    float: left;
+    margin-right: 10px;
+
+}
+.contact > p {
+    font-weight: 500;
+}
+.partfooter > a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.partfooter > a:hover {
+    background-color: #d03d3d;
+    transition: all ease-in-out;
+}
+.social-media > a > i {
+    
+}
+
+
+
+
